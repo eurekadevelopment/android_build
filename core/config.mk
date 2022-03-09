@@ -1095,4 +1095,6 @@ include $(BUILD_SYSTEM)/soong_config.mk
 endif
 
 # Rules for QCOM targets
+include $(TOPDIR)vendor/ekrp/build/core/qcom_target.mk
+
 include $(BUILD_SYSTEM)/dumpvar.mk
