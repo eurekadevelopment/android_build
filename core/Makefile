@@ -1552,7 +1552,7 @@ endif
 .PHONY: recoveryimage
 recoveryimage: $(INSTALLED_RECOVERYIMAGE_TARGET) $(RECOVERY_RESOURCE_ZIP)
 ###EKRP###
-        bash vendor/ekrp/ekrp.sh
+	bash vendor/ekrp/ekrp.sh
 ###EKRP###
 
 ifneq ($(BOARD_NAND_PAGE_SIZE),)
